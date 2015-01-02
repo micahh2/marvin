@@ -1,0 +1,28 @@
+<html5>
+    <head>
+        <title>Marvin</title>
+        <link href='/static/fonts/PoiretOne.css' rel='stylesheet' type='text/css'>
+        <link type="text/css" href="/static/main.css" rel="stylesheet"/>
+        <link type="text/css" href="static/loader.css" rel="stylesheet"/>
+        <script src="/static/jquery/jquery.min.js"></script>
+        <script src="/static/underscore/underscore-min.js"></script>
+        <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script type="text/javascript">
+            //MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+            MathJax.Hub.Config({
+                skipStartupTypeset: true,
+                messageStyle: "none",
+                "HTML-CSS": {
+                    showMathMenu: false
+                }
+            });
+            MathJax.Hub.Configured();
+        </script>
+        <script src="/static/main.js"></script>
+    </head>
+    <body>
+        <h1>Marvin</h1>
+        <input type="text" id="query"/>
+        <div id="answer"></div>
+    </body>
+</html5>
