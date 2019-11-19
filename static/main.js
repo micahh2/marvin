@@ -26,7 +26,7 @@ $(document).ready(function() {
                             ans += "</div></div>";
                         });
                         $("div#answer").html(ans);
-                        MathJax.Hub.Typeset();
+                        MathJax.typeset();
                     }
                 });
             }
